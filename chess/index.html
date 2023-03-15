@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xadrez</title>
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="gameover">
+            <h2>GAMEOVER</h2>
+            <h4>Vencedor:<span id="winner">White</span></h4></h4>
+        </div>
+        <div class="promotion">
+            <button class="btn-prom" id="knight"></button>
+            <button class="btn-prom" id="bishop"></button>
+            <button class="btn-prom" id="rook"></button>
+            <button class="btn-prom" id="queen"></button>
+        </div>
+        <h1>Xadrez</h1>
+        <button id="start-btn">Começar</button>
+    </div>
+    
+  
+    <script src="./scripts/virtualBoard.js"></script>
+    <script src="./scripts/gameLogic.js"></script>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
